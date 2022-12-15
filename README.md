@@ -1,6 +1,7 @@
 # Projet-Velib---Bicycle-sharing-analysis
 
 Ce projet porte sur l'analyse des flux d'utilisation de vélos dans le cadre du système de partage public : Vélib. Les données ont été récoltées via L'API sur la page Open Data du site Vélib-métropole.fr en licence ouverte.
+
 Language : Python
 Bibliothèques : Pandas, numpy
 Data visualisation : matplotlib, seaborn

@@ -1,8 +1,9 @@
 # Projet-Velib---Bicycle-sharing-analysis
 
-Ce projet porte sur l'analyse des flux d'utilisation de vélos dans le cadre du système de partage public : Vélib. Les données ont été récoltées via L'API sur la page Open Data du site Vélib-métropole.fr en licence ouverte.
+Ce projet porte sur l'analyse des flux d'utilisation de vélos dans le cadre du système de partage public : Vélib. Les données ont été récoltées via l'API sur la page Open Data du site Vélib-métropole.fr en licence ouverte.
 
 Language : Python
+
 Bibliothèques : Pandas, numpy
 Data visualisation : matplotlib, seaborn
 
@@ -10,7 +11,7 @@ Data visualisation : matplotlib, seaborn
 
 <img width="649" alt="image" src="https://user-images.githubusercontent.com/119977140/207740449-16a79a39-ba4b-42ce-8eab-f41487d31392.png">
 
-#### La problématique data : optimiser la circulation et les flux des vélos dans les stations Vélib de Paris afin de remédier au problème des bouchons réguliers dans la capitale.
+## La problématique data : optimiser la circulation et les flux d'utilisation de vélo dans les stations Vélib de Paris afin de remédier au problème des bouchons réguliers dans la capitale.
 
 Explication des colonnes du jeu de données : 
 
@@ -22,18 +23,19 @@ Explication des colonnes du jeu de données :
 #### 3) Enrichissement des données : code postaux obtenus grâce au reverse geocoding et import de données de population/arrondissement
 
 
-<img width="563" alt="image" src="https://user-images.githubusercontent.com/119977140/207741015-ec4eb8b5-8fa9-4104-95e3-5dcc785241fc.png">
-
-
 <img width="676" alt="image" src="https://user-images.githubusercontent.com/119977140/207742169-6c500bae-4cd1-482a-8e23-531c235194a2.png">
 
 
+# Principales visualisations :
+
+<img width="563" alt="image" src="https://user-images.githubusercontent.com/119977140/207741015-ec4eb8b5-8fa9-4104-95e3-5dcc785241fc.png">
+
+Dans un premier temps, ces graphiques (fig 6 & 7) indiquent un déséquilibre entre le choix d'implantation des stations et la concentration de population dans les arrondissements parisiens
 
 <img width="704" alt="image" src="https://user-images.githubusercontent.com/119977140/207741968-4146c39a-3783-4528-ba2e-b4f68b8f2727.png">
-figure 6 : capacité de vélos/habitant et par arrondissement
-figure 7 : distribution du pourcentage de population/arrondissement
+figure 6 : capacité de vélos/habitant et par arrondissement // figure 7 : distribution du pourcentage de population/arrondissement
 
-Observations : 
+# Observations : 
 
 <img width="559" alt="image" src="https://user-images.githubusercontent.com/119977140/207742257-b747910b-634b-48c0-875e-df47b544ce68.png">
 
@@ -42,7 +44,7 @@ Observations :
 
 <img width="641" alt="image" src="https://user-images.githubusercontent.com/119977140/207744219-71ac7b7b-0e97-4167-b224-ac06060e8122.png">
 
-Focus sur les arrondissements avec des courbes de tendance similaires ==> Présence de forte utilisation des vélos pour les trajets domicile6travail
+Focus sur les arrondissements avec les courbes de tendance similaires 514, 17, 18, 19 & 20ème) ==> Présence de forte utilisation des vélos pour les trajets domicile-travail (indiqué par un taux de disponibilité bas pendant les horaires de travail)
 
 <img width="646" alt="image" src="https://user-images.githubusercontent.com/119977140/207744317-8dcd99dc-d050-4d67-bab2-473aef8aeebb.png">
 

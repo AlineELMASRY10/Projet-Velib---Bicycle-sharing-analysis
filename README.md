@@ -59,7 +59,7 @@ En croisant ces données avec des données externes sur le taux de concentration
 
 
 Travail réalisé par :
-Elsa T.
-Marie-Claudine B.
+Elsa T. ;
+Marie-Claudine B. et
 Aline E.
 

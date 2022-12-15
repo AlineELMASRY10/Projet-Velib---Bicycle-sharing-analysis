@@ -11,7 +11,7 @@ Data visualisation : matplotlib, seaborn
 
 <img width="649" alt="image" src="https://user-images.githubusercontent.com/119977140/207740449-16a79a39-ba4b-42ce-8eab-f41487d31392.png">
 
-## La problématique data : optimiser la circulation et les flux d'utilisation de vélo dans les stations Vélib de Paris afin de remédier au problème des bouchons réguliers dans la capitale.
+## La problématique data : optimiser la circulation et les flux d'utilisation de vélo dans les stations Vélib parisiennes pour les trajets 'domicile-travail'.
 
 Explication des colonnes du jeu de données : 
 
@@ -44,13 +44,18 @@ figure 6 : capacité de vélos/habitant et par arrondissement // figure 7 : dist
 
 <img width="641" alt="image" src="https://user-images.githubusercontent.com/119977140/207744219-71ac7b7b-0e97-4167-b224-ac06060e8122.png">
 
-Focus sur les arrondissements avec les courbes de tendance similaires 514, 17, 18, 19 & 20ème) ==> Présence de forte utilisation des vélos pour les trajets domicile-travail (indiqué par un taux de disponibilité bas pendant les horaires de travail)
+Focus sur les arrondissements avec les courbes de tendance similaires ( 11, 14, 17, 18, 19 & 20ème) ==> Présence de forte utilisation des vélos pour les trajets domicile-travail (indiqué par un taux de disponibilité bas pendant les horaires de travail)
 
 <img width="646" alt="image" src="https://user-images.githubusercontent.com/119977140/207744317-8dcd99dc-d050-4d67-bab2-473aef8aeebb.png">
 
-En croisant ces données avec des données externes sur le taux de concentration de l'emploi par arrondissement, nous remarquons que l'implantation des stations Vélib doit être revue afin de répondre au besoin des arrondissements à faible taux de concentration d'emploi qui ont tendance à se déplacer en vélos ves les arrondissements à taux de concentration d'emploi élevé causant des taux de disponibilités mal équilibrés :
+Focus sur les arrondissements avec les courbes de tendance similaires : (du 1er au 9ème) ==> zones dites 'de destination', où les utilisateurs se rendent le matin aux horaires de travail. Le taux de disponibilité dans ceux-ci augmente fortement entre 7h et 9h du matin pour ensuite baisser en fin de journée travaillée quand les salariés quittent ces zones.
 
-<img width="710" alt="image" src="https://user-images.githubusercontent.com/119977140/207744792-a77a9f3b-e6f3-4c3c-9efb-668435deaff5.png">
+<img width="630" alt="image" src="https://user-images.githubusercontent.com/119977140/207746706-9a10bdc6-182b-45d2-88b7-5ce6134e7a87.png">
+
+
+En croisant ces données avec des données externes sur le taux de concentration de l'emploi par arrondissement, nous constatons que l'implantation des stations Vélib doit être revue afin de répondre au besoin des arrondissements à faible taux de concentration. La population de ces arrondissement a tendance à se déplacer en vélo vers les arrondissements à taux de concentration d'emploi élevé causant des taux de disponibilités mal équilibrés et par la suite, un taux d'embouteillage élevé du fait d'utilisation d'autres moyens de transport :
+
+<img width="706" alt="image" src="https://user-images.githubusercontent.com/119977140/207746181-45a42911-5528-456c-a056-2da86475216f.png">
 
 
 Travail réalisé par :
